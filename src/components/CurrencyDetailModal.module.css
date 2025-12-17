@@ -1,0 +1,83 @@
+.container {
+  background: #000000;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  padding: 20px 16px 30px;
+  max-height: 60vh;
+  overflow-y: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro', 'Segoe UI', sans-serif;
+  color: #FFFFFF;
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-weight: 1000;
+  font-size: 20px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  font-size: 16px;
+}
+
+.infoLabel {
+  opacity: 0.6;
+  font-weight: 860;
+}
+
+.infoValue {
+  font-weight: 700;
+}
+
+.periodSelector {
+  display: flex;
+  gap: 8px;
+  margin: 24px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.periodButton {
+  padding: 6px 12px;
+  background: #262629;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  min-width: 80px;
+  text-align: center;
+}
+
+.periodButton.active {
+  background: #007AFF;
+  color: #FFFFFF;
+}
+
+.chartContainer {
+  width: 100%;
+  max-width: 305px;
+  height: 180px;
+  margin: 16px 0;
+}
+
+.error {
+  color: #FF3B30;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 32px;
+  color: #AAAAAA;
+}
